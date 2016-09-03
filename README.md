@@ -1,11 +1,17 @@
 Gradle Test
 ==========
 
-A very simple java project with gradle.
+Use [fest](https://github.com/alexruiz/fest-assert-2.x) to do assertions in tests.
 
-Run
----
+(Requires JDK 1.8)
 
-    ./gradlew run
+```
+./gradlew test
+```
 
-Will print `HELLO, WORLD!`
+If there is any failure test, you can see more details:
+
+```
+./gradlew --info test
+```
+
